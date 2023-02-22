@@ -1,0 +1,97 @@
+body{
+ 
+    
+}
+img{
+    width: 100%;
+    height: 700px;
+}
+h1{
+    height: 50px;
+    color: blueviolet;
+    background-color: rgb(99, 227, 227);
+    text-align: center;
+}
+h2{
+    color: rgb(36, 74, 209);
+}
+h3{
+    font-size: 25px;
+}
+p{
+   font-size: 20px;
+   font-weight: bold
+}
+input{
+    background-color: rgb(238, 238, 238);
+    height: 30px;
+    font-size: large;
+    border-radius: 10px;
+}
+button{
+    width: 100px;
+    height: 50px;
+    font-size: larger;
+    color: aliceblue;
+    background-color: rgb(41, 147, 212);
+    border: none;
+    border-radius: 10px;
+}
+.main{
+    display: flex;
+}
+.div1{
+    width: 50%;
+    margin:0 50px;
+}
+.div2{
+    width: 45%;
+    margin:0px 50px;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+@media only screen and (max-width: 600px) {
+    body{
+        width: 100%;
+    }
+    img{
+        width: 100%;
+        height: auto;
+    }
+    h1{
+        width: 100%;
+    }
+    
+    .main{
+        display: block;
+    }
+    .div1{
+        display: block;
+        width: 100%;
+        margin: 0;
+    }
+    .div2{
+        
+        padding: 5px 0;
+        display: block;
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+    input{
+        background-color: rgb(238, 238, 238);
+        height: 20px;
+        font-size: large;
+        border-radius: 10px;
+    }
+    button{
+        width: 100px;
+        height: 50px;
+        font-size: larger;
+        color: aliceblue;
+        background-color: rgb(41, 147, 212);
+        border: none;
+        border-radius: 10px;
+    }
+  }
